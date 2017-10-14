@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-uirouter-integration-scenarios",
+  "version": "0.0.0",
+  "description": "A util class for create scenarios for load ui router states on integration testing on angularjs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpincheiraa/angularjs-uirouter-integration-scenarios.git"
+  },
+  "author": "Gonzalo Pincheira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gpincheiraa/angularjs-uirouter-integration-scenarios/issues"
+  },
+  "homepage": "https://github.com/gpincheiraa/angularjs-uirouter-integration-scenarios#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.8",
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6"
+  }
+}
