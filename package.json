@@ -1,6 +1,6 @@
 {
   "name": "angularjs-uirouter-integration-scenarios",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A util class for create scenarios for load ui router states on integration testing on angularjs.",
   "main": "index.js",
   "scripts": {
