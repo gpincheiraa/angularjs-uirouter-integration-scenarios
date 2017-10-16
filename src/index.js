@@ -24,9 +24,17 @@ export const uirouterScenario = {
         }
         if($state.href(stateName)) {
             $state.go(stateName);
-            backend ? $httpBackend.flush()  : $rootScope.$digest();
+            backend ? $httpBackend.flush() : $rootScope.$digest();
         } else {
             throw new Error(`The given state "${stateName}" is not exists.`)
         }
-    })
+    }),
+    getFormFromState: (formName) => {
+        const formElement = document.body.querySelector("form");
+        if(formElement) {
+            return angular.element(formElement).scope().$ctrl[formName];
+        } else {
+            throw new Error(`The actual state doesn't have a form.`)
+        }
+    }
 };
